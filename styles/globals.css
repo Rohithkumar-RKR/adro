@@ -114,9 +114,175 @@ a {
 }
 
 .bg_color{
-  background-color: #ADD8E6;
+  background-color:#e4f1fa;
   
 }
+
+#banner_3{
+
+
+  .cls-1 {
+    opacity: .1;
+  }
+
+  .cls-1, .cls-2 {
+    fill: #77b9e7;
+  }
+
+  .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+    stroke-width: 0px;
+  }
+
+  .cls-7 {
+    isolation: isolate;
+  }
+
+  .cls-3 {
+    fill: #b3b3b3;
+    opacity: .56;
+  }
+
+  .cls-8 {
+    opacity: .2;
+  }
+
+  .cls-4 {
+    fill: #fff;
+  }
+
+  .cls-5 {
+    fill: #3c3e5a;
+  }
+
+  .cls-6 {
+    fill: #bce4ff;
+    mix-blend-mode: multiply;
+  }
+
+
+  /* .main_aid{
+    width: 100%;
+    height:500px;
+    background: url('../public/images/sample1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-origin: border-box;
+  } */
+  /* .aid_1{
+    position: absolute;
+    transform:translate(11%,97%);
+  }
+   .aid_2{
+    position: absolute;
+    transform:translate(329%,102%);
+  }
+   .aid_3{
+    position: absolute;
+    transform:translate(151%,130%);
+  }
+   .aid_4{
+    position: absolute;
+    transform:translate(88%,149%);
+  }
+  .aid_5{
+    position: absolute;
+    transform:translate(517%,45%);
+  }
+  .aid_6{
+    position: absolute;
+    transform:translate(318%,66%);
+  }
+  .aid_7{
+    position: absolute;
+    transform:translate(419%,162%);
+  }
+  .aid_8{
+    position: absolute;
+    transform:translate(284%,110%);
+  }
+  .box{
+    position: absolute;
+    transform: translate(4%,42%);
+  }
+  .text{
+    overflow: hidden;
+    border-right: .15rem solid orangered;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    animation: typing 3s steps(30),
+    animated-cursor 1s  infinite;
+    display: inline-block;
+  
+}
+.hand{
+  position: absolute;
+  transform:translate(233%,-13%);
+} */
+}
+#banner_1{
+
+    .text{
+        overflow: hidden;
+        border-right: .15rem solid orangered;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        animation: typing 3s steps(30),
+        animated-cursor 1s  infinite;
+        display: inline-block;
+      
+    }
+}
+
+
+@keyframes typing{
+  from{
+      width: 0%;
+  }
+  to{
+      width:100%;
+     
+  }
+
+}
+
+@keyframes animated-cursor {
+  from{border-color: transparent;}
+  50%{border-color: blueviolet;}
+  to{border-color: transparent;}
+}
+
+
+/* #autotype{
+  .contains{
+    display: inline-block;
+  }
+  .text{
+     letter-spacing: 10px;
+     white-space: nowrap;
+     border-right:5px solid;
+     width: 100%;
+     overflow: hidden;
+     animation: typing 2s steps(18),
+        cursor .4s step-end infinite alternate
+
+    }
+
+    @keyframes cursor {
+      50%{
+        border-color:transparent
+      }
+      
+    }
+    @keyframes typing {
+      0%{
+        width:0
+      }
+    }
+} */
 
 #intro{
   /* .intro_1{
@@ -127,6 +293,48 @@ a {
     height: 100%;
     min-width: 700px;
   } */
+}
+
+#basicform{
+  /* .main_image{
+    background: url('../public/images/main_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-clip: border-box;
+    background-origin: border-box; */
+    /* height:500px; */
+  .text_col{
+    color: #dee2e6;
+  }
+  .bg_gradi{
+    background-image: linear-gradient(25deg, #e11550, #f17669, #fbb684, #fff2a0)
+    /* background-image: linear-gradient(25deg, #1d354c, #653e4f, #a24252, #de3f54) */
+  }
+
+
+ 
+}
+#service_1{
+  .text_justify{
+    text-align: justify;
+  }
+  .bor_left{
+    border-left: 3px solid #80cce5 ;
+   
+    transition: .4s ease-in-out;
+  }
+  .bor_left:hover{
+    background-color:#cee6f8;
+    border-radius: 10px;
+    /* border-left:#cee6f8 ; */
+
+  }
+}
+#service_2{
+  .alter{
+    background-color:#cee6f8 ;
+}
 }
 
 #service{
@@ -197,17 +405,25 @@ background-color:#0a8cb8;
 }
 
 
-#products
+#products,#offers
 {
   .zoom{
     overflow: hidden;
   }
-  .zoom .zoomin{
+   .zoomin{
     transition: 0.4s ease-in-out;
     cursor: pointer;
+    overflow: hidden;
   }
-  .zoom .zoomin:hover{
-    transform: scale(1.1);
+   .zoomin:hover{
+    transform: scale(0.95);
+  }
+}
+
+#footer{
+  .line{
+    border-bottom: 2px solid black;
+    padding-top: 1rem;
   }
 }
 
@@ -322,6 +538,15 @@ background-color:#0a8cb8;
       margin-top:70px;
     }
   }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+  #intro{
+    .mar_book{
+      margin-top: 1.5rem;
+    }
+  }
+ 
 }
 
 

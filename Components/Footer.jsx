@@ -51,9 +51,13 @@ const Footer = () => {
          
           </div>
        </div>
+       <div className='line'></div>
+       <div>
+        <h6 className='mt-3 text-center'>© Copyright 2023. All Rights Reserved</h6>
+       </div>
       </div>
 
-      <div className='line'></div>
+    
        
     </section>
    </>

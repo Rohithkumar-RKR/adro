@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
    <>
-   <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+   <nav class="navbar navbar-expand-lg " id="navbar">
   <div class="container">
     <Link class="navbar-brand" href="/"><Image src={logo} width={150} height={100} className="" /></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

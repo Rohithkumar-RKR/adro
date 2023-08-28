@@ -80,6 +80,11 @@ const sample = () => {
            </div>
      </OwlCarousel>
     </div>
+    <section id="autotype">
+       <div className='container contains '>
+           <h2 className='text'>Typing in css</h2>
+       </div>
+    </section>
     </>
     
   )
