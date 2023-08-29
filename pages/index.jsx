@@ -76,6 +76,7 @@ import cic_31 from '../public/images/banner/cic_31.png'
 import Image from "next/image";
 import Link from "next/link";
 import Spacing from "@/Components/Spacing";
+import Bookbtn from "@/Components/Bookbtn";
 
 const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
    ssr: false,
@@ -898,8 +899,8 @@ const about = () => {
        
       </section> */}
       <section id="brandsRefactor" className="    py-5">
-        <div className="container ">
-          <h2 className="text-center mb-3 ">Our Brands</h2>
+        <div className="container">
+          <h2 className="text-center mb-5 ">Our Brands</h2>
           <div className="row mb-md-5 mb-4  gy-4">
             <div className="col-md-3 col-sm-6 ">
               <div className="text-center">
@@ -1160,7 +1161,7 @@ const about = () => {
          </div>
        
       </section> */}
-      <section id="basicform" className="bg_color">
+      <section id="basicform" className="bg_color py-5">
         <div className="container py-5">
           <div className="row gy-4">
             <div className="col-md-7 mb-3  ">
@@ -1353,7 +1354,7 @@ const about = () => {
       </section> */}
       <section id="service_1" className="pb-3">
         <div className="container">
-          <h2 className="text-center mb-3">Our Services</h2>
+          <h2 className="text-center mb-5">Our Services</h2>
           <div className="row gy-4 mb-5">
              <div className="col-md-4 ">
               <div className="bor_left p-3">
@@ -1592,6 +1593,7 @@ const about = () => {
         </div>
         </div>
       </section> */}
+      <Bookbtn/>
     </>
   );
 };

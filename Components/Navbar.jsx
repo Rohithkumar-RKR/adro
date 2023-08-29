@@ -46,11 +46,11 @@ const Navbar = () => {
             <li><Link class="dropdown-item fw-medium" href="/services/hearingaidaccessories">Hearing Aid Accessories</Link></li>
           </ul>
         </li>
-        <li class="nav-item  mx-md-2">
+        {/* <li class="nav-item  mx-md-2">
           <Link class="nav-link fw-medium" href="#">Pricing</Link>
-        </li>
+        </li> */}
         <li class="nav-item  mx-md-2">
-          <Link class="nav-link fw-medium" href="#">Contact Us</Link>
+          <Link class="nav-link fw-medium" href="/contact">Contact Us</Link>
         </li>
         
       </ul>

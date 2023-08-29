@@ -4,8 +4,8 @@ import React from 'react'
 const Footer = () => {
   return (
    <>
-    <section id="footer" className='py-md-4 py-3  bg_color'>
-      <div className='container py-4'>
+    <section id="footer" className='py-md-4 py-5  bg_color'>
+      <div className='container py-5'>
       <div className='row gy-3'>
           <div className="col-md-3">
             <h4 className='mb-4'>About Adro</h4>

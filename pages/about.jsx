@@ -5,6 +5,7 @@ import appoint from "../public/images/appoint.jpg"
 
 import Image from 'next/image';
 import Link from 'next/link';
+import Bookbtn from '@/Components/Bookbtn';
 
  function Home() {
   return (
@@ -83,6 +84,7 @@ import Link from 'next/link';
           </div>
         </div>
       </section>
+      <Bookbtn/>
     </>
   );
 }
