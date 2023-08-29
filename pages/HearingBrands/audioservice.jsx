@@ -1,6 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import volta_pb from '../../public/images/brand_type/audio/Volta_P.webp'
+import volta_hp from '../../public/images/brand_type/audio/Volta_HP.jpg'
+import colta_hpt from '../../public/images/brand_type/audio/volta_hpt.jpg'
+import stiline from '../../public/images/brand_type/audio/stiline.webp'
+import mood_g4 from '../../public/images/brand_type/audio/mood_g4.png'
 
 
 
@@ -64,7 +69,7 @@ const audioservice = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={moxi_viv} width={230} height={300} className='img-fluid'/>
+                 <Image src={volta_pb} width={230} height={300} className='img-fluid'/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
@@ -87,7 +92,7 @@ const audioservice = () => {
             <div className="col-md-4 recommended">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={moxi_blu} width={230} height={300} className='img-fluid'/>
+                 <Image src={volta_hp} width={230} height={300} className='img-fluid'/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
@@ -114,7 +119,7 @@ const audioservice = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={shride_blu} width={230} height={300} className='img-fluid'/>
+                 <Image src={colta_hpt} width={230} height={300} className='img-fluid'/>
                 </div>
               
                 <div class="card-body   text-center bg_color">
@@ -188,7 +193,7 @@ const audioservice = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={shine_rev} width={230} height={300} className='img-fluid'/>
+                 <Image src={stiline} width={230} height={300} className='img-fluid'/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
@@ -211,7 +216,7 @@ const audioservice = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={t_max} width={230} height={300} className='img-fluid'/>
+                 <Image src={mood_g4} width={230} height={300} className='img-fluid'/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
@@ -235,7 +240,7 @@ T Max</h5>
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={inser_cic} width={230} height={300} className='img-fluid'/>
+                 <Image src={mood_g4} width={230} height={300} className='img-fluid'/>
                 </div>
               
                 <div class="card-body   text-center bg_color">
