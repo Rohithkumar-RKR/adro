@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import volta_pb from '../../public/images/brand_type/audio/Volta_P.webp'
+import volta_pb from '../../public/images/brand_type/audio/Volta_P.jpg'
 import volta_hp from '../../public/images/brand_type/audio/Volta_HP.jpg'
 import colta_hpt from '../../public/images/brand_type/audio/volta_hpt.jpg'
 import stiline from '../../public/images/brand_type/audio/stiline.webp'
@@ -92,7 +92,7 @@ const audioservice = () => {
             <div className="col-md-4 recommended">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={volta_hp} width={230} height={300} className='img-fluid'/>
+                 <Image src={volta_hp} width={300} height={300} className='img-fluid'/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
