@@ -48,7 +48,7 @@ import unitron from '../public/images/Unitron-logo.webp'
 import resound from '../public/images/resound_logo.png'
 import phonak from '../public/images/phonak_logo.jpg'
 import oticon from '../public/images/oticon_logo.jpg'
-import  rexton from '../public/images/logo/interton_logo.png'
+import  rexton from '../public/images/brand_type/unitron/inter_logo.png'
 import starkey from '../public/images/logo/audio_logo.png'
 
 import signalogo from '../public/images/logo/signa_logo.png'
