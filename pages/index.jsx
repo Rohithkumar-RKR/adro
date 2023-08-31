@@ -77,6 +77,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Spacing from "@/Components/Spacing";
 import Bookbtn from "@/Components/Bookbtn";
+import HeadTag from "@/Components/HeadTag";
 
 const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
    ssr: false,
@@ -900,7 +901,7 @@ const about = () => {
       </section> */}
       <section id="brandsRefactor" className="    py-5">
         <div className="container">
-          <h1 className="text-center mb-5 ">Our Brands</h1>
+        <h1 className="text-center mb-md-5 mb-4">Our Brands</h1>
           <div className="row mb-md-5 mb-4  gy-4">
             <div className="col-md-3 col-sm-6 col-6">
               <div className="text-center pb-sm-4 pb-md-0 pb-lg-0">
@@ -1354,7 +1355,7 @@ const about = () => {
       </section> */}
       <section id="service_1" className="pb-3">
         <div className="container">
-          <h1 className="text-center mb-5">Our Services</h1>
+             <HeadTag heading="Our Services" className=""/>
           <div className="row gy-4 mb-4 ">
              <div className="col-md-4 mb-4 ">
               <div className="">

@@ -4,17 +4,17 @@ import React from 'react'
 const Footer = () => {
   return (
    <>
-    <section id="footer" className='py-md-4 py-5  bg_color'>
-      <div className='container py-5'>
+    <section id="footer" className='py-md-5 pt-5 pb-2  bg_color'>
+      <div className='container py-md-3 pt-5'>
       <div className='row gy-3'>
           <div className="col-md-3">
-            <h4 className='mb-4'>About Adro</h4>
-            <p className='fw-normal about_'>
+            <h4 className='my-4 my-md-0 mb-md-4 '>About Adro</h4>
+            <p className='fw-normal about_ m-0'>
             Adro Hearing is one of India’s fastest-growing hearing care networks. We are here to provide you the best possible hearing care and attention. We offer a wide range of hearing aids, hearing solutions, and hearing care services to achieve the highest benefits of hearing health.  
             </p>
           </div>
           <div className='col-md-3 '>
-            <h4 className='mb-4'>Our Services</h4>
+            <h4 className='my-4 my-md-0 mb-md-4'>Our Services</h4>
             <div className='fw-normal'>
             <p className='mb-0 py-1'> <Link href="#" className='text-decoration-none text-black'>Pure Tone Audiometry</Link></p>
             <p className='mb-0  py-1'><Link href="#" className='text-decoration-none  text-black'>Impedance Audiometry</Link></p>
@@ -27,7 +27,7 @@ const Footer = () => {
         
           </div>
           <div className='col-md-2'>
-          <h4 className='mb-4'>Quick Links</h4>
+          <h4 className='my-4 my-md-0 mb-md-4'>Quick Links</h4>
           <div className='fw-normal'>
           <p className='mb-0 py-1' ><Link href="#" className='text-decoration-none text-black '>Home</Link></p>
           <p className='mb-0 py-1' ><Link href="#" className='text-decoration-none  text-black'>About us</Link></p>
@@ -38,8 +38,8 @@ const Footer = () => {
         
           </div>
           <div className='col-md-4'>
-            <div className='fw-normal'>
-            <h4 className='mb-4'>Contact info</h4>
+            <div className='fw-normal '>
+            <h4 className='my-4 my-md-0 mb-md-4'>Contact info</h4>
            <p>No.940, 1st floor, 9th cross,
 24th main road H.S.R Layout, Sector 1, Bengaluru, Karnataka, 560102.</p>
 
