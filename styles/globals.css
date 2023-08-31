@@ -363,7 +363,6 @@ a {
   }
   .bor_left{
     border-left: 3px solid #80cce5 ;
-   
     transition: .4s ease-in-out;
   }
   .bor_left:hover{
@@ -406,12 +405,85 @@ a {
 
 #banner_about{
   .about{
-    position:absolute;
-    top:25%;
-    left:32%
+    max-width:1500px;
+    height: 500px;
+    background: url('../public/images/about_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-origin: border-box;
+  }
+  .about_adro{
+    margin: 4rem 0rem;
+  }
+
+}
+
+@media only screen and (max-width: 1187px) and (min-width: 950px){
+  #banner_about{
+    .about{
+      height:400px
+    }
+    .about_adro{
+      margin: 3rem 0rem;
+    }
   }
 }
 
+@media only screen and (max-width: 949px) and (min-width: 700px){
+  #banner_about{
+    .about{
+      height:300px
+    }
+    .about_adro{
+      margin: 2.4rem 0rem;
+    }
+  }
+}
+@media only screen and (max-width: 699px) and (min-width: 600px){
+  #banner_about{
+    .about{
+      height:250px
+    }
+    .about_adro{
+      margin: 2.2rem 0rem;
+      font-size: 1.7rem;
+    }
+  }
+}
+@media only screen and (max-width: 599px) and (min-width: 400px){
+  #banner_about{
+    .about{
+      height:200px
+    }
+    .about_adro{
+      margin: 2rem 0rem;
+      font-size: 1.5rem;
+    }
+}
+}
+@media only screen and (max-width: 400px) and (min-width: 300px){
+  #banner_about{
+    .about{
+      height:150px
+    }
+    .about_adro{
+      margin: 1rem 0rem;
+      font-size: 1.3rem;
+    }
+}}
+@media only screen and (max-width: 299px) and (min-width: 200px){
+  #banner_about{
+    .about{
+      height:150px
+    }
+    .about_adro{
+      margin: 1rem 0rem;
+      font-size: 1.3rem;
+    }
+  }
+}
 #appointment{
    padding: 3rem 0rem;
 }

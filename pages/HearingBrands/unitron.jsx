@@ -77,11 +77,11 @@ const unitron = () => {
                   <h6 class="card-subtitle mb-2 fw-medium text-black text-md-left text-center ">Key Features</h6>
                   <div class="card-text  text-center ">
                   <p className='m-0 pb-1' >Receiver-in-canal</p>
-                     <p className='m-0 pb-1'>20 Channels</p>
-                     <p className='m-0 pb-1'>Rechargable lithium-ion-battery</p>
-                     <p className='m-0 pb-1'>Frequency range 0f 80Hz</p>
-                     <p className='m-0 pb-1'>user-friendly and comfortable design.</p>
-                     <p className='m-0 pb-1'>Android & iPhone Connectivity.</p>
+                     <p className='m-0 pb-1'>12-20 Channels</p>
+                     <p className='m-0 pb-1'>Rechargable Li-ion battery</p>
+                     <p className='m-0 pb-1'>Noise Reduction</p>
+                     <p className='m-0 pb-1'>Speech Enhancement</p>
+                     <p className='m-0 pb-1'>Pinna Effect</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -101,12 +101,11 @@ const unitron = () => {
                   <h6 class="card-subtitle mb-2 fw-medium text-black text-md-left text-center ">Key Features</h6>
                   <div class="card-text  text-center ">
                   <p className='m-0 pb-1' >Receiver-in-canal</p>
-                     <p className='m-0 pb-1'>20 Channels</p>
-                     <p className='m-0 pb-1'>Rechargable lithium-ion-battery</p>
-                     <p className='m-0 pb-1'>Frequency range 0f 80Hz</p>
-                     <p className='m-0 pb-1'>Android & iPhone Connectivity.</p>
-                     <p className='m-0 pb-1'>user-friendly and comfortable design.</p>
-                     {/* <p className='m-0 pb-1'></p> */}
+                     <p className='m-0 pb-1'>12-20 Channels</p>
+                     <p className='m-0 pb-1'>Rechargable Li-ion Battery</p>
+                     <p className='m-0 pb-1'>Dynamic Noise Reduction</p>
+                     <p className='m-0 pb-1'>Spatial awareness</p>
+                     <p className='m-0 pb-1'>Soft Speech Lift</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -127,11 +126,11 @@ const unitron = () => {
                   <h6 class="card-subtitle mb-2 text-black fw-medium ">Key Features</h6>
                   <div class="card-text  text-md-left text-center ">
                   <p className='m-0 pb-1' >Behind-the-ear</p>
-                     <p className='m-0 pb-1'>20 Channels</p>
-                     <p className='m-0 pb-1'>Rechargable lithium-ion-battery</p>
-                     <p className='m-0 pb-1'>Frequency range 0f 100Hz</p>
-                     <p className='m-0 pb-1'>Award-winning design.</p>
-                     <p className='m-0 pb-1'>Android & iPhone Connectivity.</p>
+                     <p className='m-0 pb-1'>12-20 Channels</p>
+                     <p className='m-0 pb-1'>Battery Size 675</p>
+                     <p className='m-0 pb-1'>Dual Receiver</p>
+                     <p className='m-0 pb-1'>Sound Optimization</p>
+                     <p className='m-0 pb-1'>Feedback Canceler</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -202,9 +201,9 @@ const unitron = () => {
                   <div class="card-text  text-center ">
                   <p className='m-0 pb-1' >Behind-the-ear</p>
                      <p className='m-0 pb-1'>12 Channels</p>
-                     <p className='m-0 pb-1'>Battery size of 312</p>
-                     <p className='m-0 pb-1'>Frequency range from 40-120Hz</p>
-                     <p className='m-0 pb-1'>high power mini bte</p>
+                     <p className='m-0 pb-1'>Battery size  312</p>
+                     <p className='m-0 pb-1'>Microphone Shield</p>
+                     <p className='m-0 pb-1'>Better Sound Enhancement</p>
                      <p className='m-0 pb-1'>Good Noise reduction </p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
@@ -226,10 +225,10 @@ T Max</h5>
                   <div class="card-text  text-center ">
                   <p className='m-0 pb-1' >Behind-the-ear</p>
                      <p className='m-0 pb-1'>6 Channels</p>
-                     <p className='m-0 pb-1'>Battery size of 13</p>
-                     <p className='m-0 pb-1'>Frequency range from 30-110Hz</p>
-                     <p className='m-0 pb-1'>Spatial Sense.</p>
-                     <p className='m-0 pb-1'>Binuaral Directionality III</p>
+                     <p className='m-0 pb-1'>Battery Size 13</p>
+                     <p className='m-0 pb-1'>Wind Control</p>
+                     <p className='m-0 pb-1'>Feedback Mangement</p>
+                     <p className='m-0 pb-1'>Directional Microphone</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -248,11 +247,11 @@ T Max</h5>
                   <h6 class="card-subtitle mb-2 text-black fw-medium ">Key Features</h6>
                   <div class="card-text  text-md-left text-center ">
                   <p className='m-0 pb-1' >Completely-in-the-canal</p>
-                     <p className='m-0 pb-1'>20 Channels</p>
-                     <p className='m-0 pb-1'>Battery size of 6</p>
-                     <p className='m-0 pb-1'>Frequency range from 0-90Hz</p>
-                     <p className='m-0 pb-1'>Android & iPhone Connectivity.</p>
-                     <p className='m-0 pb-1'>Feedback Manager</p>
+                     <p className='m-0 pb-1'>12-20 Channels</p>
+                     <p className='m-0 pb-1'>Battery size 312</p>
+                     <p className='m-0 pb-1'>Tinnitus Masker</p>
+                     <p className='m-0 pb-1'>Better Noise Attenuation</p>
+                     <p className='m-0 pb-1'>Spatial Awareness</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details

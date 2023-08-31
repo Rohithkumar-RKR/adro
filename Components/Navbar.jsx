@@ -25,12 +25,14 @@ const Navbar = () => {
              Hearing Aids
           </Link>
           <ul class="dropdown-menu">
-            <li><Link class="dropdown-item fw-medium" href="/HearingBrands/signa">Signa Hearing Aids</Link></li>
+            <li><Link class="dropdown-item fw-medium" href="/HearingBrands/signa">Signia Hearing Aids</Link></li>
             <li><Link class="dropdown-item fw-medium" href="/HearingBrands/widex">Widex Hearing Aids</Link></li>
             <li><Link class="dropdown-item fw-medium" href="/HearingBrands/phonak">Phonak Hearing Aids</Link></li>
             <li><Link class="dropdown-item fw-medium" href="/HearingBrands/resound">Resound Hearing Aids</Link></li>
-            <li><Link class="dropdown-item fw-medium" href="/HearingBrands/signa">Starkey Hearing Aids</Link></li>
-            <li><Link class="dropdown-item fw-medium" href="/HearingBrands/signa">Oticon Hearing Aid</Link></li>
+            <li><Link class="dropdown-item fw-medium" href="/HearingBrands/audioservice">Audio Service Hearing Aids</Link></li>
+            <li><Link class="dropdown-item fw-medium" href="/HearingBrands/oticon">Oticon Hearing Aid</Link></li>
+            <li><Link class="dropdown-item fw-medium" href="/HearingBrands/unitron">Unitron Hearing Aid</Link></li>
+            <li><Link class="dropdown-item fw-medium" href="/HearingBrands/interton">Interton Hearing Aid</Link></li>
           </ul>
         </li>
         <li class="nav-item dropdown mx-md-2">

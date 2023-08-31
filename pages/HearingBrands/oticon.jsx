@@ -1,22 +1,20 @@
-import React from 'react'
-import type1 from '../../public/images/types/widex.png'
-import type2 from '../../public/images/types/widex_3.jpg'
-import type3 from '../../public/images/types/widex_4.jpg'
-import moment from '../../public/images/brand_type/widex/moment.png'
-import momentbte from '../../public/images/brand_type/widex/momentbte.png'
-import evoke from '../../public/images/brand_type/widex/evoke.jpg'
-import magnify from '../../public/images/brand_type/widex/magnify.png'
-import enjoy from '../../public/images/brand_type/widex/enjoy.png'
-import menu from '../../public/images/brand_type/widex/menu.webp'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
+import more from '../../public/images/brand_type/oticon/more_rie.webp'
+import  zircon from '../../public/images/brand_type/oticon/zircon.png'
+import  opn from '../../public/images/brand_type/oticon/opn.webp'
+import  xceed from '../../public/images/brand_type/oticon/xceed.jpg'
+import  geno from '../../public/images/brand_type/oticon/geno.png'
+import  dynamo from '../../public/images/brand_type/oticon/dyno.jpg'
 
-const widex = () => {
+
+const oticon = () => {
   return (
-    <>
-      <section id='signa' className='my-5'>
+   <>
+    <section id='signa' className='my-5'>
         <div className='container'>
-           <h2 className='text-center'>Widex Hearing Aids</h2>
+           <h2 className='text-center'>Oticon Hearing Aids</h2>
         </div>
      </section>
      
@@ -71,18 +69,19 @@ const widex = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={moment} width={200} height={200} className=''/>
+                 <Image src={more} width={200} height={200} className=''/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
-                  <h5 class="card-title mb-3 text-md-left text-center">Moment Sheer</h5>
+                  <h5 class="card-title mb-3 text-md-left text-center">Oticon More RIE</h5>
                   <h6 class="card-subtitle mb-2 fw-medium text-black text-md-left text-center ">Key Features</h6>
                   <div class="card-text  text-center ">
-                  <p className='m-0 pb-1' >Receiver-in-Canal</p>
-                     <p className='m-0 pb-1'>Rechargeable Li-ion Battery</p>
-                     <p className='m-0 pb-1'>Speech Enhancement</p>
-                     <p className='m-0 pb-1'>Reduction in Wind Noise</p>
-                     <p className='m-0 pb-1'>Provides Audio Streaming</p>
+                  <p className='m-0 pb-1' >Receiver-in-Ear</p>
+                     <p className='m-0 pb-1'>48-64 Channels</p>
+                     <p className='m-0 pb-1'>Rechargeable Li-ion battery</p>
+                     <p className='m-0 pb-1'>Virtual Outer Ear</p>
+                     <p className='m-0 pb-1'>Stereo Streaming</p>
+                     <p className='m-0 pb-1'>Spatial Balancer</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -94,18 +93,20 @@ const widex = () => {
               <div class="card ">
               {/* <h5 className='m-0 fs-6 text-center pt-1'>Recommended</h5> */}
                 <div className='text-center'>
-                 <Image src={momentbte} width={200} height={200} className=''/>
+                 <Image src={zircon} width={200} height={200} className=''/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
-                  <h5 class="card-title mb-3 text-md-left text-center">Moment</h5>
+                  <h5 class="card-title mb-3 text-md-left text-center">Zircon</h5>
                   <h6 class="card-subtitle mb-2 fw-medium text-black text-md-left text-center ">Key Features</h6>
                   <div class="card-text  text-center ">
-                  <p className='m-0 pb-1' >Behind-the-Ear</p>
-                     <p className='m-0 pb-1'>Rechargeable Li-ion Battery</p>
-                     <p className='m-0 pb-1'>Ultrafast Sound Tracking</p>
-                     <p className='m-0 pb-1'>Android & iPhone Connectivity.</p>
-                     <p className='m-0 pb-1'>Provides Wireless Streaming</p>
+                  <p className='m-0 pb-1' >Receiver-in-Canal</p>
+                     <p className='m-0 pb-1'>48 Channels</p>
+                     <p className='m-0 pb-1'>Rechargeable Li-ion battery</p>
+                     <p className='m-0 pb-1'>Frequency Lowering</p>
+                     <p className='m-0 pb-1'>Noise Removal</p>
+                     <p className='m-0 pb-1'>Feedback Management</p>
+                     {/* <p className='m-0 pb-1'></p> */}
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -118,18 +119,19 @@ const widex = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={magnify} width={200} height={200} className=''/>
+                 <Image src={opn} width={200} height={200} className=''/>
                 </div>
               
                 <div class="card-body   text-center bg_color">
-                  <h5 class="card-title mb-3">Magnify</h5>
+                  <h5 class="card-title mb-3">Opn S</h5>
                   <h6 class="card-subtitle mb-2 text-black fw-medium ">Key Features</h6>
                   <div class="card-text  text-md-left text-center ">
-                  <p className='m-0 pb-1' >Behind-the-Ear</p>
-                     <p className='m-0 pb-1'>Rechargeable Li-ion Battery</p>
-                     <p className='m-0 pb-1'>Wireless assist</p>
-                     <p className='m-0 pb-1'>Bluetooth Connectivity</p>
-                     <p className='m-0 pb-1'>Tinnitus Masker</p>
+                  <p className='m-0 pb-1'>Receiver-in-Ear</p>
+                     <p className='m-0 pb-1'>48-64 Channels</p>
+                     <p className='m-0 pb-1'>Rechargeable Li-ion battery</p>
+                     <p className='m-0 pb-1'>Soft Speech Booster</p>
+                     <p className='m-0 pb-1'>OpenSound Optimizer</p>
+                     <p className='m-0 pb-1'>Tinnitus SoundSupport</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -191,18 +193,19 @@ const widex = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={evoke} width={200} height={200} className=''/>
+                 <Image src={xceed} width={200} height={200} className=''/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
-                  <h5 class="card-title mb-3 text-md-left text-center">Evoke</h5>
+                  <h5 class="card-title mb-3 text-md-left text-center">Xceed Ultra Power</h5>
                   <h6 class="card-subtitle mb-2 fw-medium text-black text-md-left text-center ">Key Features</h6>
                   <div class="card-text  text-center ">
-                  <p className='m-0 pb-1' >Receiver-in-Canal</p>
-                     <p className='m-0 pb-1'> Battery size 312</p>
-                     <p className='m-0 pb-1'>Directional Focus</p>
-                     <p className='m-0 pb-1'>Speech Enhancer</p>
-                     <p className='m-0 pb-1'>Wind Noise Control</p>
+                  <p className='m-0 pb-1' > Behind-the-ear</p>
+                     <p className='m-0 pb-1'>48 Channels</p>
+                     <p className='m-0 pb-1'> Battery size 675</p>
+                     <p className='m-0 pb-1'>Adaptation Management</p>
+                     <p className='m-0 pb-1'>Feedback Correction</p>
+                     <p className='m-0 pb-1'>Tinnitus masker</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -213,18 +216,19 @@ const widex = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={enjoy} width={200} height={200} className=''/>
+                 <Image src={geno} width={150} height={200} className=''/>
                 </div>
               
                 <div class="card-body  text-md-left text-center bg_color">
-                  <h5 class="card-title mb-3 text-md-left text-center">Enjoy</h5>
+                  <h5 class="card-title mb-3 text-md-left text-center">Geno 2</h5>
                   <h6 class="card-subtitle mb-2 fw-medium text-black text-md-left text-center ">Key Features</h6>
                   <div class="card-text  text-center ">
-                  <p className='m-0 pb-1'>Behind-the-Ear</p>
-                  <p className='m-0 pb-1' >Battery size 13</p>
-                     <p className='m-0 pb-1'>Better Noise Reducer</p>
-                     <p className='m-0 pb-1'>Provides Feedback Cancelling</p>
-                     <p className='m-0 pb-1'>iOS Streaming</p>
+                  <p className='m-0 pb-1' >Behind-the-Ear</p>
+                     <p className='m-0 pb-1'>15 Channels</p>
+                     <p className='m-0 pb-1'>Battery size 13</p>
+                     <p className='m-0 pb-1'>Noise Management</p>
+                     <p className='m-0 pb-1'>Quadcore Chip</p>
+                     <p className='m-0 pb-1'>Single Compression</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
@@ -235,25 +239,26 @@ const widex = () => {
             <div className="col-md-4 ">
               <div class="card ">
                 <div className='text-center'>
-                 <Image src={menu} width={200} height={200} className=''/>
+                 <Image src={dynamo} width={200} height={200} className=''/>
                 </div>
               
                 <div class="card-body   text-center bg_color">
-                  <h5 class="card-title mb-3">Menu Super Power</h5>
+                  <h5 class="card-title mb-3">Dynamo Super Power</h5>
                   <h6 class="card-subtitle mb-2 text-black fw-medium ">Key Features</h6>
                   <div class="card-text  text-md-left text-center ">
-                  <p className='m-0 pb-1' >Behind-the-Ear</p>
-                  <p className='m-0 pb-1'> Battery size 675</p>
-                     <p className='m-0 pb-1'>Speech Enhancement</p>
-                     <p className='m-0 pb-1'>Adjustable Frequency</p>
-                     <p className='m-0 pb-1'>Tinnitus Management</p>
+                  <p className='m-0 pb-1' >Behind-the-ear</p>
+                     <p className='m-0 pb-1'>16 Channels</p>
+                     <p className='m-0 pb-1'>Battery size of 675</p>
+                     <p className='m-0 pb-1'>Speech and Noise Management</p>
+                     <p className='m-0 pb-1'>Binaural Syncronisation</p>
+                     <p className='m-0 pb-1'>SpeechMaster</p>
                   </div>
                   <Link href="#" class="btn btn-warning my-3">
                      Price details
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> 
             {/* <div className='col-md-6'>
 
 
@@ -261,8 +266,8 @@ const widex = () => {
           </div>
         </div>
       </section>
-    </>
+   </>
   )
 }
 
-export default widex
+export default oticon

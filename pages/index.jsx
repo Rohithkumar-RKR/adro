@@ -900,10 +900,10 @@ const about = () => {
       </section> */}
       <section id="brandsRefactor" className="    py-5">
         <div className="container">
-          <h2 className="text-center mb-5 ">Our Brands</h2>
+          <h1 className="text-center mb-5 ">Our Brands</h1>
           <div className="row mb-md-5 mb-4  gy-4">
-            <div className="col-md-3 col-sm-6 ">
-              <div className="text-center">
+            <div className="col-md-3 col-sm-6 col-6">
+              <div className="text-center pb-sm-4 pb-md-0 pb-lg-0">
               <Link
                 className="text-decoration-none text-black"
                 href="/HearingBrands/signa"
@@ -912,13 +912,13 @@ const about = () => {
                   src={signalogo}
                   width={200}
                   height={200}
-                  className="img-fluid"
+                  className="img-fluid pe-4 pt-2 pb-sm-1"
                 />
               </Link>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6 my-auto pt-md-0 pt-sm-0 pt-2 ">
-              <div className="text-center pt-3">
+            <div className="col-md-3 col-sm-6 col-6 my-auto pt-md-0 pt-sm-0 pt-2 ">
+              <div className="text-center pt-3 pb-sm-4 pb-md-0 pb-lg-0">
               <Link
                 className="text-decoration-none text-black"
                 href="/HearingBrands/widex"
@@ -927,13 +927,13 @@ const about = () => {
                   src={widex}
                   width={160}
                   height={200}
-                  className="img-fluid"
+                  className="img-fluid pe-3 "
                 />
                 </Link>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6 my-auto pt-md-0 pt-sm-0 pt-3">
-              <div className="text-center  pt-3 ">
+            <div className="col-md-3 col-sm-6 col-6 my-auto pt-md-0 pt-sm-0 pt-3">
+              <div className="text-center  pt-3 pb-sm-4 pb-md-0 pb-lg-0 pb-2 ">
               <Link
                 className="text-decoration-none text-black"
                 href="/HearingBrands/phonak"
@@ -942,13 +942,13 @@ const about = () => {
                   src={phonak}
                   width={160}
                   height={200}
-                  className="img-fluid"
+                  className="img-fluid pe-2"
                 />
                 </Link>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6  my-auto pt-md-2 pt-sm-0 pt-3">
-              <div className="text-center ">
+            <div className="col-md-3 col-sm-6 col-6  my-auto pt-md-2 pt-sm-0 pt-3">
+              <div className="text-center  pb-sm-4 pb-md-0 pb-lg-0 pb-2">
               <Link
                 className="text-decoration-none text-black"
                 href="/HearingBrands/starkey"
@@ -956,52 +956,52 @@ const about = () => {
                 
                 <Image
                   src={starkey}
-                  width={200}
+                  width={160}
                   height={200}
-                  className="img-fluid"
+                  className="img-fluid "
                 />
                 </Link>
               </div>
             </div>
           </div>
           <div className="row gy-4">
-            <div className="col-md-3 col-sm-6 my-auto ">
-              <div className="text-center pt-3">
+            <div className="col-md-3 col-sm-6 col-6 my-auto ">
+              <div className="text-center pt-3  pb-sm-4 pb-md-0 pb-lg-0  pb-2">
                 <Image
                   src={resound}
-                  width={180}
+                  width={170}
                   height={150}
-                  className="img-fluid"
+                  className="img-fluid pb-md-2 pe-3"
                 />
               </div>
             </div>
-            <div className="col-md-3 col-sm-6 my-auto">
-              <div className="text-center py-sm-0 py-md-0 py-4">
+            <div className="col-md-3 col-sm-6 col-6 my-auto">
+              <div className="text-center  pb-sm-4 pb-md-0 pb-lg-0  pb-2 pt-2">
                 <Image
                   src={rexton}
-                  width={200}
+                  width={150}
                   height={200}
-                  className="img-fluid"
+                  className="img-fluid pe-3"
                 />
               </div>
             </div>
-            <div className="col-md-3 col-sm-6 m-0 my-auto ">
-              <div className="text-center">
+            <div className="col-md-3 col-sm-6 col-6 m-0 my-auto ">
+              <div className="text-center pb-sm-4 pb-md-0 pb-lg-0  pb-2 mt-md-0 mt-sm-0 mt-lg-0 mt-3">
                 <Image
                   src={oticon}
-                  width={200}
+                  width={180}
                   height={200}
-                  className="img-fluid"
+                  className="img-fluid pe-2"
                 />
               </div>
             </div>
-            <div className="col-md-3 col-sm-6  my-auto ">
-              <div className="text-center ">
+            <div className="col-md-3 col-sm-6 col-6  my-auto ">
+              <div className="text-center pb-sm-4 pb-md-0 pb-lg-0  pb-2 mt-md-0 mt-sm-0 mt-lg-0 mt-3 ">
                 <Image
                   src={unitronlogo}
-                  width={200}
+                  width={180}
                   height={200}
-                  className="img-fluid"
+                  className="img-fluid pb-md-2"
                 />
               </div>
             </div>
@@ -1163,12 +1163,12 @@ const about = () => {
       </section> */}
       <section id="basicform" className="bg_color py-5">
         <div className="container py-5">
-          <div className="row gy-4">
-            <div className="col-md-7 mb-3  ">
-              <h3 className="mb-4 ">
+          <div className="row gy-5">
+            <div className="col-md-7 mb-3 pe-3">
+              <h2 className="mb-4 ">
                 Take your first step to better and more clear hearing.
-              </h3>
-              <h4>Get quality hearing aids at the best price</h4>
+              </h2>
+              <h3>Get quality hearing aids at the best price</h3>
               <p>Terms and conditions apply</p>
               <div className="mt-3  text-center">
                 <Image
@@ -1179,7 +1179,7 @@ const about = () => {
                 />
               </div>
             </div>
-            <div className="col-md-5 my-auto">
+            <div className="col-md-5 my-md-auto py-md-0 py-3 ">
               <div className="bg_gradi px-4 py-4 b border  rounded-4">
                 <h4 className="text-center mb-3">Book a Free Hearing Aid Trial</h4>
                 <div>
@@ -1354,63 +1354,66 @@ const about = () => {
       </section> */}
       <section id="service_1" className="pb-3">
         <div className="container">
-          <h2 className="text-center mb-5">Our Services</h2>
-          <div className="row gy-4 mb-5">
-             <div className="col-md-4 ">
-              <div className="bor_left p-3">
-                <div>
+          <h1 className="text-center mb-5">Our Services</h1>
+          <div className="row gy-4 mb-4 ">
+             <div className="col-md-4 mb-4 ">
+              <div className="">
+                <div className=" bor_left p-3">
                   <Image src={sericon} width={80} className="img-fluid"/>
+                  <h4>Pure Tone Audiometry</h4>
+                  <p className="text_justify pb-lg-3">Pure Tone Audiometry Test – often referred to as PTA is a behavioral test that measures hearing sensitivity. This test mainly helps in indicating the Pure Tone Thresholds (PTTs)</p>
                 </div>
-                <h5>Pure Tone Audiometry</h5>
-                <p className="text_justify">Pure Tone Audiometry Test – often referred to as PTA is a behavioral test that measures hearing sensitivity. This test mainly helps in indicating the Pure Tone Thresholds (PTTs)</p>
+
               </div>
              </div>
             
-             <div className="col-md-4 ">
-              <div className="bor_left p-3">
-                <div>
+             <div className="col-md-4 mb-4 ">
+              <div >
+                <div className=" bor_left p-3">
                   <Image src={sericon} width={80} className="img-fluid"/>
+                  <h4>Impedance Audiometry</h4>
+                  <p className="text_justify pb-lg-3 ">Impedance audiometry test is a vital test to analyze the middle ear condition. Primary use: Tympanic membrane and middle ear status are determined through this test.</p>
                 </div>
-                <h5>Impedance Audiometry</h5>
-                <p className="text_justify pb-3">Impedance audiometry test is a vital test to analyze the middle ear condition. Primary use: Tympanic membrane and middle ear status are determined through this test.</p>
+               
               </div>
              </div>
-             <div className="col-md-4">
-              <div className="bor_left p-3">
-                <div>
-                  <Image src={sericon} width={80} className="img-fluid"/>
+             <div className="col-md-4 mb-4">
+              <div >
+                <div className="bor_left p-3">
+                  <Image src={sericon} width={80} className="img-fluid pb-md-1"/>
+                   <h4 className=""> Hearing Aid Trial & Fitting</h4>
+                  <p className="text_justify pb-md-3 pb-xl-4 pb-xxl-2">Hearing aid fitting consists of a selection phase.Once hearing aid trial is completed, the selected hearing aid will be tuned and adjusted as per the customers</p>
                 </div>
-                <h5>Hearing Aid Trial & Fitting</h5>
-                <p className="text_justify pb-3">Hearing aid fitting consists of a selection phase. Once hearing aid trial is completed, the selected hearing aid will be tuned and adjusted as per the customers need.</p>
+               
               </div>
              </div>
           </div>
           <div className="row gy-4">
-            <div className="col-md-4">
+            <div className="col-md-4 mb-4">
             <div className="bor_left p-3">
                 <div>
                   <Image src={sericon} width={80} className="img-fluid"/>
                 </div>
-                <h5>Hearing Aid Repair Servicey</h5>
-                <p className="text_justify">Hearing aids are basically electronic device that requires regular service and maintenance. If your hearing aid isn’t working properly, kindly do not delay to service it.</p>
+                <h4>Hearing Aid Repair Servicey</h4>
+                <p className="text_justify pb-md-4 mb-xl-0">Hearing aids are basically electronic device that requires regular service and maintenance. If your hearing aid isn’t working properly, kindly do not delay to service it.</p>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-4">
             <div className="bor_left p-3">
                 <div>
                   <Image src={sericon} width={80} className="img-fluid"/>
                 </div>
-                <h5>Tinnitus Treatment</h5>
-                <p className="text_justify">For an effective Tinnitus Retraining Therapy session it fetches around 1hr for completion. The patient has to undergo this treatment for a prescribed duration of months.</p>
+                <h4>Tinnitus Treatment</h4>
+                <p className="text_justify pb-lg-5 mb-lg-5 pb-xl-4 mb-xl-1">For an effective Tinnitus Retraining Therapy session it fetches around 1hr for completion. The patient has to undergo this treatment for a prescribed duration of months.</p>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-4">
             <div className="bor_left p-3">
                 <div>
                   <Image src={sericon} width={80} className="img-fluid"/>
                 </div>
-                <h5>Hearing Aid Accessories</h5>
-                <p className="text_justify pb-4">Hearing aid batteries from PowerOne, & ReSound. Brand specific Hearing aid wireless accessories such as TV streamer, Phone Clip, Micro Phone & Remote control</p>
+                <h4>Hearing Aid Accessories</h4>
+                <p className="text_justify pb-md-4 mb-xl-0">Hearing aid batteries from PowerOne, & ReSound. Brand specific Hearing aid wireless accessories such as TV streamer, Phone Clip, Micro Phone and Remote control.</p>
               </div>
             </div>
 
@@ -1593,7 +1596,7 @@ const about = () => {
         </div>
         </div>
       </section> */}
-      <Bookbtn/>
+      {/* <Bookbtn/> */}
     </>
   );
 };
