@@ -63,8 +63,8 @@ import Spacing from '@/Components/Spacing';
       <Spacing/>
       <section id="appointment" className=" ">
         <div className="container">
-          <div className="row">
-            <div className="col-md-6 my-auto">
+          <div className="row gy-5">
+            <div className="col-md-6 my-auto mb-4">
               <div className=" shadow   bg-body rounded">
                 <Image src={appoint} className="img-fluid" />
               </div>
