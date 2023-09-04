@@ -5,6 +5,7 @@ import puretone from '../../public/images/puretone.jpg'
 import Link from 'next/link'
 import Section from '@/Components/Section'
 import Spacing from '@/Components/Spacing'
+import Bookmainbtn from '@/Components/Bookmainbtn'
 
 const puretoneaudio = () => {
   return (
@@ -54,7 +55,8 @@ const puretoneaudio = () => {
            <div className='text-center'>
             <p className='fw-medium'>Do you want a free assessment of your hearing loss ? Please contact us at 9880915931. </p>
             <h3>or</h3>
-            <button className='btn btn-warning p-2 mt-2'><Link href="/" className='text-decoration-none text-black'>Book an appointment</Link></button>
+            {/* <button className='btn btn-warning p-2 mt-2'><Link href="/" className='text-decoration-none text-black'>Book an appointment</Link></button> */}
+            <Bookmainbtn/>
            </div>
          </div>
       </Section>
