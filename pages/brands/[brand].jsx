@@ -9,12 +9,12 @@ const Brand = ({ page }) => {
   return (
     <>
       <Spacing />
-      <H2eadtag>{page.title}</H2eadtag>
+      <H2eadtag>{page?.title}</H2eadtag>
       <Spacing />
       <Section className='pt-3'>
         <div className="container ">
           <div className="row gy-5">
-            {page.products.map((item) => (
+            {page?.products.map((item) => (
               <div className="col-md-4">
                 <Card item={item} />
               </div>
@@ -25,7 +25,7 @@ const Brand = ({ page }) => {
     
       <Section>
          <div className="container pb-3">
-           <h5 className="mb-4">Book an  Appointment To learn more about {page.title} Products</h5>
+           <h5 className="mb-4">Book an  Appointment To learn more about {page?.title} Products</h5>
            <Bookmainbtn/>
          </div>
       </Section>
