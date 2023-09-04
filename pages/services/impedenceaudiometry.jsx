@@ -3,20 +3,23 @@ import React from 'react'
 import impedence from '../../public/images/impedence.webp'
 import Image from 'next/image'
 import Link from 'next/link'
+import Spacing from '@/Components/Spacing'
+import Section from '@/Components/Section'
 
 const impedenceaudiometry = () => {
   return (
    <>
-   <Banner/>
-   <section id="impedence_tagline" className='py-md-5 py-4'>
-     <div className='container'>
+   <Spacing/>
+   <Section className=''>
+     <div className='container'  id="impedence_tagline">
      <h2 className='mb-3'>Impedance Audiometry</h2>
-     <h3 className="fs-3">"Empowering Hearing Wellness: Impedance Audiometry Services"</h3>  
+     <h3 className="">"Empowering Hearing Wellness: Impedance Audiometry Services"</h3>  
      </div>
-   </section>
-   <section id="impedence_about" className='py-md-5 py-4 bg_color'>
-     <div className='container'>
-       <div className='row gy-3'>
+   </Section>
+   <Spacing/>
+   <Section  className='bg_color'>
+     <div className='container py-5 text-white' id="impedence_about">
+       <div className='row gy-5'>
         <div className='col-md-6 text-center'>
          <div className='text-center'>
             <Image src={impedence} className="img-fluid"/>
@@ -24,13 +27,13 @@ const impedenceaudiometry = () => {
         </div>
         <div className='col-md-6 '> 
         <div className='mt-3'>
-        <p className='fw-medium'>
+        <p className=''>
            Navigate your hearing health with our Impedance Audiometry service. 
            </p>
-           <p className='fw-medium'>
+           <p className=''>
            Impedance audiometry test is a vital test to analyze the middle ear condition. Primary use: Tympanic membrane and middle ear status are determined via this test. 
            </p>
-           <p  className='fw-medium'>
+           <p  className=''>
            Impedance Audiometry Test charges : Rs.750.00
            </p>
         </div>
@@ -38,16 +41,18 @@ const impedenceaudiometry = () => {
         </div>
        </div>
      </div>
-   </section>
-   <section id="know_more1" className='py-md-5 py-4'>
-         <div className='container'>
+   </Section>
+   <Spacing/>
+   <Section  className=''>
+         <div className='container' id="know_more1">
            <div className='text-center'>
-            <p className='fw-bold fs-6 mb-1'>Do you want a free assessment of your hearing loss ? Please contact us at 9880915931. </p>
+            <p className='fw-medium'>Do you want a free assessment of your hearing loss ? Please contact us at 9880915931. </p>
             <h3>or</h3>
-            <button className='btn btn-warning p-2 fw-medium'><Link href="/" className='text-decoration-none text-black'>Book an appointment</Link></button>
+            <button className='btn btn-warning p-2 mt-2 '><Link href="/" className='text-decoration-none text-black'>Book an appointment</Link></button>
            </div>
          </div>
-      </section>
+      </Section>
+      <Spacing/>
    </>
   )
 }

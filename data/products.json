@@ -1,0 +1,596 @@
+{
+  "signia": {
+    "title": "Signia Hearing Aids",
+    "products": [
+      {
+        "name": "Styletto AX Slim",
+        "key_features": [
+          "Receiver-in-canal",
+          "16-48 Channels",
+          "Rechargeable Li-ion battery",
+          "Outstanding Speech Clarity",
+          "Android & iPhone Connectivity",
+          "AI Assistan"
+        ],
+        "image": "/signa/styleto_ax.jpg"
+      },
+      {
+        "name": "Pure Charge N G0 AX",
+        "key_features": [
+          "Receiver-in-canal",
+          "48 Channels",
+          "Rechargeable Li-ion battery",
+          "Augmented Speech Understanding",
+          "Immersive Soundscape",
+          "AI Digital Assistant"
+        ],
+        "image": "/signa/pure_charge.jpg"
+      },
+      {
+        "name": "Insio Charge N Go AX",
+        "key_features": [
+          "In-the-canal",
+          "48 Channels",
+          "Battery size 312",
+          "Outstanding Speech Clarity",
+          "Customized Fit",
+          "Bluetooth Connectivity"
+        ],
+        "image": "/signa/insio_ax.jpg"
+      },
+      {
+        "name": "Motion Charge N Go X",
+        "key_features": [
+          "Behind-the-ear",
+          "16-48 Channels",
+          "Rechargable Li-ion battery",
+          "Good Sound Clarity",
+          "Feedback Correction",
+          "Tinnitus masker"
+        ],
+        "image": "/signa/motion_charge.png"
+      },
+      {
+        "name": "Silk X",
+        "key_features": [
+          "Completely-in-canal",
+          "16-48 Channels",
+          "Battery size 10",
+          "Adaptive Directionality",
+          "Better Noisce Cancellation",
+          "Own Voice Processing(OVP)"
+        ],
+        "image": "/signa/silk_x.jpg"
+      },
+      {
+        "name": "Motion SP",
+        "key_features": [
+          "Behind-the-ear",
+          "16-24 Channels",
+          "Battery size 675",
+          "Speech and Noisce Management",
+          "Tinnitus Management",
+          "SpeechMaster"
+        ],
+        "image": "/signa/motion_sp.png"
+      }
+    ]
+  },
+  "widex": {
+    "title": "Widex Hearing Aids",
+    "products": [
+      {
+        "name": "Moment Sheer",
+        "key_features": [
+          "Receiver-in-canal",
+          "Rechargeable Li-ion Battery",
+          "Speech Enhancement",
+          "Reduction in Wind Noise",
+          "Provides Audio Streaming"
+        ],
+        "image": "/widex/moment.png"
+      },
+      {
+        "name": "Moment",
+        "key_features": [
+          "Behind-the-Ear",
+          "Rechargeable Li-ion Battery",
+          "Ultrafast Sound Tracking",
+          "Android & iPhone Connectivity.",
+          "Provides Wireless Streaming"
+        ],
+        "image": "/widex/momentbte.png"
+      },
+      {
+        "name": "Magnify",
+        "key_features": [
+          "Behind-the-Ear",
+          "Rechargeable Li-ion Battery",
+          "Wireless assist",
+          "Bluetooth Connectivity",
+          "Tinnitus Masker"
+        ],
+        "image": "/widex/magnify.png"
+      },
+      {
+        "name": "Evoke",
+        "key_features": [
+          "Receiver-in-Canal",
+          "Battery size 312",
+          "Directional Focus",
+          "Speech Enhancer",
+          "Wind Noise Control"
+          
+        ],
+        "image": "/widex/evoke.jpg"
+      },
+      {
+        "name": "Enjoy",
+        "key_features": [
+          "Behind-the-Ear",
+          "Battery size 13",
+          "Better Noise Reducer",
+          "Provides Feedback Cancelling",
+          "iOS Streaming"
+        ],
+        "image": "/widex/enjoy.png"
+      },
+      {
+        "name": "Menu Super Power",
+        "key_features": [
+          "Behind-the-Ear",
+          "Battery size 675",
+          "Speech Enhancement",
+          "Adjustable Frequency",
+          "Tinnitus Management"
+        ],
+        "image": "/widex/menu.webp"
+      }
+    ]
+  },
+  "phonak": {
+    "title": "Phonak Hearing Aids",
+    "products": [
+      {
+        "name": "Audeo Lumity",
+        "key_features": [
+          "Receiver-in-Canal",
+          "20 Channels",
+          "Rechargable Li-ion Battery",
+          "Comfort in Noise",
+          "Speech Enhancer",
+          "Tinnitus Balance"
+        ],
+        "image": "/phonak/audeo_lum.png"
+      },
+      {
+        "name": "Audeo Paradise",
+        "key_features": [
+          "Receiver-in-Canal",
+          "12-20 Channels",
+          "Rechargable Li-ion Battery",
+          "Motion Sensor Hearing",
+          "Dynamic Noise Cancellation",
+          "EchoBlock"
+        ],
+        "image": "/phonak/audeo_par.png"
+      },
+      {
+        "name": "Naida Paradise",
+        "key_features": [
+          "Behind-the-Ear",
+          "12-20 Channels",
+          "Rechargable Li-ion Battery",
+          "Comfort in Noise",
+          "SteroZoom",
+          "SoundRelax"
+        ],
+        "image": "/phonak/naida.png"
+      },
+      {
+        "name": "Sky M-Pediatric",
+        "key_features": [
+          "Behind-the-Ear",
+          "8-12 Channels",
+          "Rechargable Li-ion Battery",
+          "Made for Children",
+          "Maximun Speech Enhancement",
+          "Better Audio Quality"
+        ],
+        "image": "/phonak/skym.png"
+      },
+      {
+        "name": "Virto",
+        "key_features": [
+          "In-the-Canal",
+          "12-20 Channels",
+          "Battery size 312",
+          "Tap Control",
+          "RogerDirect",
+          "UltraZoom Sound Recover"
+        ],
+        "image": "/phonak/virto.png"
+      },
+      {
+        "name": "Vitus+",
+        "key_features": [
+          "Behind-the-Ear",
+          "6 Channels",
+          "Battery size 675",
+          "QuickSync",
+          "Good Sound Recover",
+          "Speech in Noise"
+        ],
+        "image": "/phonak/vitus.webp"
+      }
+    ]
+  },
+  "resound": {
+    "title": "Resound Hearing Aids",
+    "products": [
+      {
+        "name": "Omnia Mini RIE",
+        "key_features": [
+          "Receiver-in-Ear",
+          "12-17 Channels",
+          "Rechargeable Li-ion Battery",
+          "Noise Reduction",
+          "Remote Audiology Care",
+          "Ear to Ear Communciation"
+        ],
+        "image": "/rexton/omnia.webp"
+      },
+      {
+        "name": "Omnia BTE",
+        "key_features": [
+          "Behind-the-Ear",
+          "12-17 Channels",
+          "Rechargeable Li-ion Battery",
+          "Comfort & Convenience",
+          "Speech Understanding",
+          "Environmental Optimizer"
+        ],
+        "image": "/rexton/omnia_bte.jpg"
+      },
+      {
+        "name": "Omnia ITC",
+        "key_features": [
+          "In-the-Canal",
+          "12-17 Channels",
+          "Rechargeable Li-ion Battery",
+          "Tinnitus Sound Generator",
+          "Speech Enhancement",
+          "Wireless Charger"
+        ],
+        "image": "/rexton/omnia_itc.jpg"
+      },
+      {
+        "name": "ENZO Q SP",
+        "key_features": [
+          "Behind-the-Ear",
+          "12-17 Channels",
+          "Battery Size 675",
+          "Noise Reduction",
+          "Acceptance Manager",
+          "Provides Wind Guard"
+        ],
+        "image": "/rexton/ensq.jpg"
+      },
+      {
+        "name": "Key SP",
+        "key_features": [
+          "Behind-the-Ear",
+          "8-12 Channels",
+          "Battery size 675",
+          "Environmental Classifier",
+          "Improved Sound Quality",
+          "Noise Tracker"
+        ],
+        "image": "/rexton/key.jpg"
+      },
+      {
+        "name": "Linx Quattro",
+        "key_features": [
+          "Completely-in-Canal",
+          "12-17 Channels",
+          "Battery Size 10A",
+          "Provides Soft Switching",
+          "Provides Wind Guard",
+          "Tinnitus Management"
+        ],
+        "image": "/rexton/linx.jpg"
+      }
+    ]
+  },
+  "audioservice": {
+    "title": "Audio Service Hearing Aids",
+    "products": [
+      {
+        "name": "Volta PB",
+        "key_features": [
+          "Behind-the-Ear",
+          "4 Channels",
+          "Battery size 13",
+          "Fitting Range 10-80dB"
+        ],
+        "image": "/audio/Volta_P.webp"
+      },
+      {
+        "name": "Volta HPT",
+        "key_features": [
+          "Behind-the-Ear",
+          "6 Channels",
+          "Battery size 675",
+          "Fitting Range 20-120dB"
+        ],
+        "image": "/audio/Volta_HP.jpg"
+      },
+      {
+        "name": "Volta HPC",
+        "key_features": [
+          "Behind-the-ear",
+          "8 Channels",
+          "Battery size 675",
+          "Fitting Range 20-120dB"
+        ],
+        "image": "/audio/volta_hpt.jpg"
+      },
+      {
+        "name": "Stiline",
+        "key_features": [
+          "Receiver-in-Canal",
+          "16 Channels",
+          "Rechargeable Li-ion Battery",
+          "Anti-Feedback System",
+          "Impulse Suppressor",
+          "Good Noise reduction"
+        ],
+        "image": "/audio/stiline.webp"
+      },
+      {
+        "name": "Mood 3 G4",
+        "key_features": [
+          "Receiver-in-Canal",
+          "12 Channels",
+          "Battery size 312",
+          "Speech Enhancement",
+          "Spatial Sense",
+          "Most Affordable RIC"
+        ],
+        "image": "/audio/mood_g4.png"
+      },
+      {
+        "name": "HP4 G4",
+        "key_features": [
+          "Behind-the-Ear",
+          "16 Channels",
+          "Battery size 675",
+          "Fitting Range 20-120dB",
+          "Frequency Compression",
+          "Tinnitus Masker"
+        ],
+        "image": "/audio/hp4.webp"
+      }
+    ]
+  },
+  "oticon": {
+    "title": "Oticon Hearing Aids",
+    "products": [
+      {
+        "name": "Oticon More RIE",
+        "key_features": [
+          "Receiver-in-Ear",
+          "48-64 Channels",
+          "Rechargeable Li-ion battery",
+          "Virtual Outer Ear",
+          "Stereo Streaming",
+          "Spatial Balancer"
+        ],
+        "image": "/oticon/more_rie.webp"
+      },
+      {
+        "name": "Zircon",
+        "key_features": [
+          "Receiver-in-Canal",
+          "48 Channels",
+          "Rechargeable Li-ion battery",
+          "Frequency Lowering",
+          "Noise Removal",
+          "Noise Removal",
+          "Feedback Management"
+        ],
+        "image": "/oticon/zircon.png"
+      },
+      {
+        "name": "Opn S",
+        "key_features": [
+          "Receiver-in-Canal",
+          "48-68 Channels",
+          "Rechargeable Li-ion battery",
+          "Soft Speech Booster",
+          "OpenSound Optimizer",
+          "Tinnitus SoundSuppor"
+        ],
+        "image": "/oticon/opn.webp"
+      },
+      {
+        "name": "Xceed Ultra Power",
+        "key_features": [
+          "Behind-the-ear",
+          "48 Channels",
+          "Battery size 675",
+          "Adaptation Management",
+          "Feedback Correction",
+          "Tinnitus masker"
+        ],
+        "image": "/oticon/xceed.jpg"
+      },
+      {
+        "name": "Geno 2",
+        "key_features": [
+          "Behind-the-Ear",
+          "15 Channels",
+          "Battery size 13",
+          "Noise Management",
+          "Quadcore Chip",
+          "Single Compression"
+        ],
+        "image": "/oticon/geno.png"
+      },
+      {
+        "name": "Dynamo Super Power",
+        "key_features": [
+          "Behind-the-ear",
+          "16 Channels",
+          "Battery size of 675",
+          "Speech and Noise Management",
+          "Binaural Syncronisation",
+          "SpeechMaster"
+        ],
+        "image": "/oticon/dyno.jpg"
+      }
+    ]
+  },
+  "unitron": {
+    "title": "Unitron Hearing Aid",
+    "products": [
+      {
+        "name": "Moxi Vivante",
+        "key_features": [
+          "Receiver-in-canal",
+          "12-20 Channels",
+          "Rechargable Li-ion battery",
+          "Noise Reduction",
+          "Speech Enhancement",
+          "Pinna Effect"
+        ],
+        "image": "/unitron/moxi_viv.jpg"
+      },
+      {
+        "name": "Moxi Blu",
+        "key_features": [
+          "Receiver-in-canal",
+          "12-20 Channels",
+          "Rechargable Li-ion Battery",
+          "Dynamic Noise Reduction",
+          "Spatial awareness",
+          "Soft Speech Lift"
+        ],
+        "image": "/unitron/moxi_blu.jpg"
+      },
+      {
+        "name": "StrideBlu",
+        "key_features": [
+          "Behind-the-ear",
+          "12-20 Channels",
+          "Battery Size 675",
+          "Dual Receiver",
+          "Sound Optimization",
+          "Feedback Canceler"
+        ],
+        "image": "/unitron/stride_blu.webp"
+      },
+      {
+        "name": "Shine Rev",
+        "key_features": [
+          "Behind-the-ear",
+          "12 Channels",
+          "Battery size 312",
+          "Microphone Shield",
+          "Better Sound Enhancement",
+          "Good Noise reduction"
+        ],
+        "image": "/unitron/shine_rev.png"
+      },
+      {
+        "name": "T Max",
+        "key_features": [
+          "Behind-the-ear",
+          "6 Channels",
+          "Battery Size 13",
+          "Wind Control",
+          "Feedback Mangement",
+          "Directional Microphone"
+        ],
+        "image": "/unitron/T_max.png"
+      },
+      {
+        "name": "Insera B",
+        "key_features": [
+          "Completely-in-the-canal",
+          "12-20 Channels",
+          "Battery size 312",
+          "Tinnitus Masker",
+          "Better Noise Attenuation",
+          "Spatial Awareness"
+        ],
+        "image": "/unitron/insera_cic.jpg"
+      }
+    ]
+  },
+  "interton": {
+    "title": "Interton Hearing Aid",
+    "products": [
+      {
+        "name": "Move HP",
+        "key_features": [
+          "Behind-the-Ear",
+          "4-12 Channels",
+          "Battery size 13",
+          "Outstanding Speech Clarity",
+          "Android & iPhone Connectivity",
+          "Better Noise Cancellation"
+        ],
+        "image": "/interon/move_hp.webp"
+      },
+      {
+        "name": "Move SP",
+        "key_features": [
+          "Behind-the-Ear",
+          "6-17 Channels",
+          "Battery size 675",
+          "Distortion Free Frequency",
+          "Better Sound Recovery",
+          "Provides Good Stable Gain"
+        ],
+        "image": "/interon/move_sp.webp"
+      },
+      {
+        "name": "Gain SP",
+        "key_features": [
+          "Behind-the-Ear",
+          "9 Channels",
+          "Battery size 675",
+          "Better Noise Cancellation",
+          "Multi-Mic",
+          "Sound Recovery"
+        ],
+        "image": "/interon/gain_sp.webp"
+      },
+      {
+        "name": "Move Wireless",
+        "key_features": [
+          "Completely-in-Canal",
+          "17-8 Channels",
+          "Battery size 10A",
+          "Bluetooth Connectivity CIC",
+          "Audio Streaming",
+          "Integrated Directionality"
+        ],
+        "image": "/interon/move_wire.jpg"
+      },
+      {
+        "name": "Move Rechargeable",
+        "key_features": [
+          "Receiver-in-Canal",
+          "12-17 Channels",
+          "Rechargeable Li-ion Battery",
+          "Fast Charging",
+          "Bluetooth Connectivity",
+          "Noise Reduction"
+        ],
+        "image": "/interon/move_rec.webp"
+      }
+    ]
+  }
+}

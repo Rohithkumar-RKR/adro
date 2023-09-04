@@ -7,33 +7,41 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Bookbtn from '@/Components/Bookbtn';
 import Spacing from '@/Components/Spacing';
+import Section from '@/Components/Section';
+import Bookmainbtn from '@/Components/Bookmainbtn';
 
  function Home() {
   return (
     <>
-      <section id="banner_about">
-        <div className=" p-0">
+    <>
+    <section className="">
+        <div className=" py-2" id="banner_about">
           <div className="about d-flex justify-content-center  ">
             <h1 className="text-center about_adro ">About Adro Hearing Clinic</h1>
           </div>
         </div>
       </section>
-      <Spacing/>
-      <section id="tagline" className="">
-        <div className="container">
-          <h2 className="fs-1 text-center">
+    </>
+     
+      <>
+      <Section>
+        <div className="container" id="tagline">
+          <h3 className="fs-md-2  text-center">
             "Elevating Lives, One Sound at a Time"
-          </h2>
+          </h3>
           <h4 className="text-center">
             We’ll help to find The Perfect Hearing Aids
           </h4>
         </div>
-      </section>
-      <Spacing/>
-      <section id="about_us" className="py-5 bg_color ">
-        <div className="container py-3">
-          <h2 className="text-center pb-5">About Adro</h2>
-          <div className="row gy-5">
+      </Section>
+      </>
+      
+      
+  <>
+  <Section  className="bg_color">
+        <div className="container py-2" id="about_us">
+          <h2 className="text-center pb-5 m-0">About Adro</h2>
+          <div className="row gy-4">
             <div className="col-md-6">
               <h3 className='mb-3'>Best Hearing Clinic</h3>
               <p className="">
@@ -59,17 +67,19 @@ import Spacing from '@/Components/Spacing';
           </div>
           <p></p>
         </div>
-      </section>
+      </Section>
+  </>
       <Spacing/>
-      <section id="appointment" className=" ">
-        <div className="container">
+      <>
+      <Section className="">
+        <div className="container  py-2 "  id="appointment">
           <div className="row gy-5">
-            <div className="col-md-6 my-auto mb-4">
+            <div className="col-md-6 ">
               <div className=" shadow   bg-body rounded">
                 <Image src={appoint} className="img-fluid" />
               </div>
             </div>
-            <div className="col-md-6 ps-4">
+            <div className="col-md-6">
               
               <h3 className="fs-2 fw-bold ">
                 See how our hearing aids can transform your life
@@ -80,15 +90,14 @@ import Spacing from '@/Components/Spacing';
                 comfortably in a variety of settings thanks to its advanced
                 digital technology.
               </p>
-              
   
-              <button className='btn btn-warning p-2 fw-medium'><Link href="/" className='text-decoration-none text-black'>Book an appointment</Link></button>
+              <Bookmainbtn/>
             </div>
           </div>
         </div>
-      </section>
+      </Section>
       <Spacing/>
-      {/* <Bookbtn/> */}
+      </>
     </>
   );
 }

@@ -1,10 +1,8 @@
 import React from 'react'
 
-const HeadTag = (props) => {
+const HeadTag = ({children}) => {
   return (
-   <>
-   <h1 className='text-center mb-5'>{props.heading}</h1>
-   </>
+   <h1 className='text-center mb-5'>{children}</h1>
   )
 }
 
