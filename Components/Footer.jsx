@@ -77,18 +77,18 @@ const Footer = () => {
               </p>
               <p className="mb-0  py-1 pb-1 mx-3 mx-md-0">
                
-                <Link href="/service/hearingaidrepair" className="text-decoration-none  text-white">
+                <Link href="/services/hearingaidrepair" className="text-decoration-none  text-white">
                   Hearing Aid Repair and Service
                 </Link>
               </p>
               <p className="mb-0  py-1 pb-1 mx-3 mx-md-0">
                
-                <Link href="/service/tinnitustreatment" className="text-decoration-none  text-white">
+                <Link href="/services/tinnitustreatment" className="text-decoration-none  text-white">
                   Tinnitus Treatment
                 </Link>
               </p>
               <p className="mb-0  py-1 pb-1 mx-3 mx-md-0">
-                <Link href="/service/hearingaidaccessories" className="text-decoration-none  text-white">
+                <Link href="/services/hearingaidaccessories" className="text-decoration-none  text-white">
                   Hearing Aid Accessories
                 </Link>
               </p>

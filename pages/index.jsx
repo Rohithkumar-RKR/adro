@@ -54,7 +54,7 @@ import starkey from '../public/images/logo/audio_logo.png'
 import signalogo from '../public/images/logo/signa_logo.png'
 import unitronlogo from '../public/images/logo/Unitron-logo.png'
 
-import formimg from '../public/images/ricform.png'
+import formimg from '../public/images/ric_form1.png'
 import sericon from '../public/images/ser_icon.png'
 
 // import bte from '../public/images/bte.png'
@@ -962,7 +962,7 @@ const about = () => {
             </div>
             <div className="col-md-5 my-md-auto py-md-0 py-3 ">
               <div className="bg_gradi px-4 py-4 b border  rounded-4">
-                <h4 className="text-center mb-3">Book a Free Hearing Aid Trial</h4>
+                <h4 className="text-center mb-3 text-black">Book a Free Hearing Aid Trial</h4>
                 <div>
                   <form>
                     <div className="mb-3">

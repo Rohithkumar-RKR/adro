@@ -12,8 +12,8 @@ const contact = () => {
     <Section  className='bg_color'>
       <div className='container py-5 text-white' id="contact">
          <div className='row d-flex justify-content-between gy-5'>
-           <div className='col-md-7 mb-md-0 mb-3 my-auto'>
-           <div className=" px-4 ">
+           <div className='col-md-7 mb-md-0 mb-3 '>
+           <div className=" p-4 bg_grad text-black border rounded-3">
                 <h4 className="text-center mb-4">Book a Free Hearing Aid Trial</h4>
                 <p>Reach out to us through by taking  the first step towards rediscovering the joy of clear and vibrant hearing with our advanced hearing aid solutions.</p>
                 <div>

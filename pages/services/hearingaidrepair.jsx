@@ -19,7 +19,7 @@ const hearingaidrepair = () => {
     </Section>
     <Spacing/>
     <Section  className='bg_color'>
-      <div className='container  pb-5 pt-md-5 pt-3 text-whte' id="hearrepair_about">
+      <div className='container  pb-5 pt-md-5 pt-3 text-white' id="hearrepair_about">
         <div className='row gy-5'>
             <div className='col-md-6'>
                <div className='mt-3'>

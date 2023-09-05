@@ -355,7 +355,8 @@ a {
     color: #dee2e6;
   }
   .bg_gradi{
-    background-image: linear-gradient(25deg, #e11550, #f17669, #fbb684, #fff2a0)
+    background-color: #E0E3E2;
+    /* background-image: linear-gradient(25deg, #e11550, #f17669, #fbb684, #fff2a0) */
     /* background-image: linear-gradient(25deg, #1d354c, #653e4f, #a24252, #de3f54) */
   }
 
@@ -364,7 +365,7 @@ a {
 }
 #contact{
   .bg_grad{
-    background-image: linear-gradient(30deg, #f60000, #d8425c, #a95da7, #0072f6);
+   background-color:  #E0E3E2;
   }
 }
 #service_1{
@@ -372,11 +373,12 @@ a {
     text-align: justify;
   }
   .bor_left{
-    border-left: 3px solid #80cce5 ;
+    border-left: 3px solid #4E7296;
     transition: .4s ease-in-out;
   }
   .bor_left:hover{
-    background-color:#cee6f8;
+    background-color:#4E7296;
+    color: white;
     border-radius: 12px;
     /* border-left:#cee6f8 ; */
 
@@ -502,12 +504,13 @@ a {
     color: black;
 }
 .nav-link.active{
-  color: #0a8cb8 ;
+  /* color: #0a8cb8 ; */
+  color: #4E7296;
 }
 
 .nav-link:hover,.nav-link:active{
   color:white;
-  background-color: #0a8cb8 ;
+  background-color: #4E7296 ;
  
 }
 .dropdown-menu{
@@ -528,7 +531,7 @@ a {
 
 .dropdown-item:hover{
   color:white;
-background-color:#0a8cb8;
+background-color:#4E7296;
 }
 .dropdown:hover .dropdown-menu{
   display:block;

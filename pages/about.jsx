@@ -39,7 +39,7 @@ import Bookmainbtn from '@/Components/Bookmainbtn';
       
   <>
   <Section  className="bg_color">
-        <div className="container py-2" id="about_us">
+        <div className="container py-2 text-white" id="about_us">
           <h2 className="text-center pb-5 m-0">About Adro</h2>
           <div className="row gy-4">
             <div className="col-md-6">
