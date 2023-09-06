@@ -572,6 +572,15 @@ background-color:#4E7296;
 }
 /* media-query for home page */
 
+
+
+@media only screen and (max-width: 500px){
+  #navbar{
+    .logo{
+      width:50%
+    }
+  }
+}
 @media only screen and (max-width: 767px)
 {
   #intro{

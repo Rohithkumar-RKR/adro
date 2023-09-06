@@ -838,7 +838,7 @@ const about = () => {
               <div className="text-center pb-sm-4 pb-md-0 pb-lg-0">
               <Link
                 className="text-decoration-none text-black"
-                href="/HearingBrands/signa"
+                href="/brands/signia"
               >
                 <Image
                   src={signalogo}
@@ -853,7 +853,7 @@ const about = () => {
               <div className="text-center pt-3 pb-sm-4 pb-md-0 pb-lg-0">
               <Link
                 className="text-decoration-none text-black"
-                href="/HearingBrands/widex"
+                href="/brands/widex"
               >
                 <Image
                   src={widex}
@@ -868,7 +868,7 @@ const about = () => {
               <div className="text-center  pt-3 pb-sm-4 pb-md-0 pb-lg-0 pb-2 ">
               <Link
                 className="text-decoration-none text-black"
-                href="/HearingBrands/phonak"
+                href="/brands/phonak"
               >
                 <Image
                   src={phonak}
@@ -883,7 +883,7 @@ const about = () => {
               <div className="text-center  pb-sm-4 pb-md-0 pb-lg-0 pb-2">
               <Link
                 className="text-decoration-none text-black"
-                href="/HearingBrands/starkey"
+                href="/brands/audioservice"
               >
                 
                 <Image
@@ -899,42 +899,52 @@ const about = () => {
           <div className="row gy-4">
             <div className="col-md-3 col-sm-6 col-6 my-auto ">
               <div className="text-center pt-3  pb-sm-4 pb-md-0 pb-lg-0  pb-2">
+                <Link href='/brands/resound'>
                 <Image
                   src={resound}
                   width={170}
                   height={150}
                   className="img-fluid pb-md-2 pe-3"
                 />
+                </Link>
               </div>
             </div>
             <div className="col-md-3 col-sm-6 col-6 my-auto">
               <div className="text-center  pb-sm-4 pb-md-0 pb-lg-0  pb-2 pt-2">
+                <Link href='/brands/interton'>
                 <Image
                   src={rexton}
                   width={150}
                   height={200}
                   className="img-fluid pe-3"
                 />
+                </Link>
               </div>
             </div>
             <div className="col-md-3 col-sm-6 col-6 m-0 my-auto ">
               <div className="text-center pb-sm-4 pb-md-0 pb-lg-0  pb-2 mt-md-0 mt-sm-0 mt-lg-0 mt-3">
+                <Link href='/brands/oticon'>
                 <Image
                   src={oticon}
                   width={180}
                   height={200}
                   className="img-fluid pe-2"
                 />
+                </Link>
+               
               </div>
             </div>
             <div className="col-md-3 col-sm-6 col-6  my-auto ">
               <div className="text-center pb-sm-4 pb-md-0 pb-lg-0  pb-2 mt-md-0 mt-sm-0 mt-lg-0 mt-3 ">
+                <Link href='/brands/unitron'>
                 <Image
                   src={unitronlogo}
                   width={180}
                   height={200}
                   className="img-fluid pb-md-2"
                 />
+                </Link>
+               
               </div>
             </div>
           </div>
@@ -1061,7 +1071,7 @@ const about = () => {
                 <div>
                   <Image src={sericon} width={80} className="img-fluid"/>
                 </div>
-                <h4>Hearing Aid Repair Servicey</h4>
+                <h4>Hearing Aid Repair & Services</h4>
                 <p className="text_justify pb-md-4 mb-xl-0">Hearing aids are basically electronic device that requires regular service and maintenance. If your hearing aid isn’t working properly, kindly do not delay to service it.</p>
               </div>
             </div>
