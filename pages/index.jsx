@@ -829,7 +829,7 @@ const about = () => {
         </div>
 </section>
 
-<>
+<Spacing/>
 <Section>
         <div className="container" id="brandsRefactor">
         <HeadTag>Our Brands</HeadTag>
@@ -950,10 +950,9 @@ const about = () => {
           </div>
         </div>
 </Section>
-</>
-<>
+<Spacing/>
 <Section className="bg_color">
-        <div className="container py-5 text-white" id="basicform">
+        <div className="container py-5  text-white" id="basicform">
           <div className="row gy-5">
             <div className="col-md-7 mb-3 pe-3">
               <h2 className="mb-4 ">
@@ -1026,9 +1025,7 @@ const about = () => {
           </div>
         </div>
 </Section>
-</>
-{/* <Spacing /> */}
- <>
+<Spacing/>
 <Section>
         <div className="container" id="service_1">
           <HeadTag>Our Services</HeadTag>
@@ -1099,7 +1096,7 @@ const about = () => {
         </div>
 
 </Section>
-</>
+<Spacing/>
 {/* <Spacing /> */}
 </>
   );

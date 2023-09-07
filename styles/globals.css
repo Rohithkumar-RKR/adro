@@ -89,6 +89,10 @@ body {
   overflow-x: hidden;
 }
 
+p{
+  font-size: 16px;
+}
+
 body {
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -380,7 +384,7 @@ a {
     background-color:#4E7296;
     color: white;
     border-radius: 12px;
-    /* border-left:#cee6f8 ; */
+  
 
   }
 }

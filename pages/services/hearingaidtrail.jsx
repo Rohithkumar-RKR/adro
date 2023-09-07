@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Section from '@/Components/Section'
 import Spacing from '@/Components/Spacing'
 import Bookmainbtn from '@/Components/Bookmainbtn'
+import Servicecal from '@/Components/Servicecal'
 
 const Hearingaidtrail = () => {
   return (
@@ -38,14 +39,7 @@ const Hearingaidtrail = () => {
    </Section>
    <Spacing/>
    <Section  className=''>
-         <div className='container' id="know_more3">
-           <div className='text-center'>
-            <p className='fw-medium'>Do you want a free assessment of your hearing loss ? Please contact us at 9880915931. </p>
-            <h3>or</h3>
-            {/* <button className='btn btn-warning p-2 mt-2'><Link href="/" className='text-decoration-none text-black'>Book an appointment</Link></button> */}
-            <Bookmainbtn/>
-           </div>
-         </div>
+        <Servicecal/>
       </Section>
       <Spacing/>
    </>

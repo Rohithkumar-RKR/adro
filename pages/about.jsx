@@ -13,7 +13,7 @@ import Bookmainbtn from '@/Components/Bookmainbtn';
  function Home() {
   return (
     <>
-    <>
+    
     <section className="">
         <div className=" py-2" id="banner_about">
           <div className="about d-flex justify-content-center  ">
@@ -21,10 +21,11 @@ import Bookmainbtn from '@/Components/Bookmainbtn';
           </div>
         </div>
       </section>
-    </>
+  
      
-      <>
-      <Section>
+      
+      <Spacing/>
+    <Section>
         <div className="container" id="tagline">
           <h3 className="fs-md-2  text-center">
             "Elevating Lives, One Sound at a Time"
@@ -34,13 +35,10 @@ import Bookmainbtn from '@/Components/Bookmainbtn';
           </h4>
         </div>
       </Section>
-      </>
-      
-      
-  <>
+    <Spacing/>
   <Section  className="bg_color">
-        <div className="container py-2 text-white" id="about_us">
-          <h2 className="text-center pb-5 m-0">About Adro</h2>
+        <div className="container py-4 text-white" id="about_us">
+          <h2 className="text-center mb-5  m-0">About Adro</h2>
           <div className="row gy-4">
             <div className="col-md-6">
               <h3 className='mb-3'>Best Hearing Clinic</h3>
@@ -68,11 +66,9 @@ import Bookmainbtn from '@/Components/Bookmainbtn';
           <p></p>
         </div>
       </Section>
-  </>
       <Spacing/>
-      <>
       <Section className="">
-        <div className="container  py-2 "  id="appointment">
+        <div className="container py-5  "  id="appointment">
           <div className="row gy-5">
             <div className="col-md-6 ">
               <div className=" shadow   bg-body rounded">
@@ -98,7 +94,7 @@ import Bookmainbtn from '@/Components/Bookmainbtn';
       </Section>
       <Spacing/>
       </>
-    </>
+
   );
 }
 export default Home;
